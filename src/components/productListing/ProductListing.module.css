@@ -1,0 +1,59 @@
+.ProductListing {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  position: relative;
+}
+
+.pagination_buttons {
+  /* border: 2px solid blue; */
+  list-style: none;
+  width: 20%;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  /* box-shadow: 2px 2px 5px 1px gray; */
+  margin-left: 67%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.pagination_buttons a {
+  /* border: 1px solid rgb(70, 161, 214); */
+  border-radius: 5px;
+  cursor: pointer;
+  /* color: rgb(70, 161, 214); */
+  color: black;
+  padding: 7px;
+  background-color: white;
+  box-shadow: 2px 2px 5px 1px gray;
+}
+
+.pagination_buttons a:hover {
+  color: white;
+  background-color: rgb(70, 161, 214);
+}
+
+.paginationActive a {
+  color: white;
+  background-color: rgb(70, 161, 214);
+}
+
+.btn_privious {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

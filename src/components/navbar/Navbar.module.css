@@ -1,0 +1,23 @@
+.Navbar {
+  /* border: 2px solid purple; */
+  box-shadow: 2px 2px 5px 1px gray;
+  background-color: rgb(241, 241, 249);
+  width: 75%;
+  height: 4rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  padding: 0.9rem 2rem;
+}
+
+input {
+  height: 2.1rem;
+  width: 30rem;
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}

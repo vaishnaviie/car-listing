@@ -1,0 +1,113 @@
+.card {
+  /* border: 3px dotted blue; */
+  list-style: none;
+  border-radius: 1rem;
+  background-color: white;
+  position: relative;
+  width: 350px;
+  background-color: rgb(241, 241, 249);
+  box-shadow: 2px 2px 15px 2px gray;
+  cursor: pointer;
+}
+
+.carImg {
+  object-fit: cover;
+  height: 250px;
+  width: 345px;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+}
+
+.carName_conatiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carName {
+  font-family: "Courgette", cursive;
+  font-family: "Onest", sans-serif;
+}
+
+.year {
+  border: 2px dotted rgb(70, 161, 214);
+  border-radius: 10px;
+  padding: 0.1rem 0.4rem;
+}
+
+.box_conatiner {
+  /* border: 2px solid green; */
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: rgb(69, 62, 62);
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid orange; */
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+.small_box {
+  width: 7rem;
+  /* border: 2px solid hotpink; */
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.car_cost_container {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  padding: 0.5rem;
+}
+
+.btns_container {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
+  width: 47%;
+  /* padding: 0rem 0.5rem; */
+}
+
+.heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+  padding: 0.5rem;
+  background-color: rgb(219, 219, 251);
+  cursor: pointer;
+}
+
+.heart:hover {
+  background-color: rgb(204, 204, 231);
+}
+
+.btn_rent {
+  /* border: 2px solid black; */
+  border: none;
+  border-radius: 8px;
+  padding: 0.2rem 0.5rem;
+  font-size: bolder;
+  color: white;
+  background-color: rgb(70, 161, 214);
+  font-family: "Courgette", cursive;
+  font-family: "Onest", sans-serif;
+  cursor: pointer;
+}
+
+.btn_rent:hover {
+  background-color: rgb(105, 170, 207);
+}
